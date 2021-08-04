@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+.space {
+    background: url("space.png") no-repeat;
+    background-size: cover;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+.planet {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    bottom: 0;
+    z-index: 2;
+}
+.rocket {
+    position: relative;
+    transform: rotate(35deg);
+    width: 200px;
+    height: auto;
+    top: 43vh;
+    left: 200px;
+    z-index: 3;
+}

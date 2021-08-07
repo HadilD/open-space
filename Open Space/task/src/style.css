@@ -17,11 +17,11 @@ body {
     z-index: 2;
 }
 .rocket {
-    position: relative;
+    position: absolute;
     transform: rotate(35deg);
     width: 200px;
     height: auto;
-    top: 43vh;
+    bottom: 27vh;
     left: 200px;
     z-index: 3;
 }
